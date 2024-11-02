@@ -4,8 +4,8 @@ const fs = require('fs')
 const { color } = require('./lib/myfunc')
 
 //owner
-global.owner = '2347043759577'
-global.nomerowner = ["2347043759577"]
+global.owner = '2349012500275'
+global.nomerowner = ["2349012500275"]
 
 // Apikey 
 
@@ -55,10 +55,10 @@ global.rpg = {
 }
 
 //auto functioner
-global.autoTyping = false;                //make true to enable auto typing
+global.autoTyping = true;                //make true to enable auto typing
 global.autoRecord = false;                //make true to enable auto recording
-global.autoViewStatus = true;       //make true to view statuses
-global.unavailable = true;     
+global.autoViewStatus = false;       //make true to view statuses
+global.unavailable = false;     
 //to show your real presence  
 global.available = false;   
 // to show always online  
@@ -81,7 +81,7 @@ global.antilinkwarn = false;
 
 //_____________//
 // Don't change it
-global.antibot = false
+global.antibot = true
 //—————「 Deadline 」—————//
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
